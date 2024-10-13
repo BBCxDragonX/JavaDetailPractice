@@ -8,7 +8,7 @@ import java.util.Map;
 
 @Setter@Getter
 public class RestaurantManager {
-    private Map<Integer,Double> MenuItems;
-    private Map<Integer,Double> orders;
+    private List<MenuItems> MenuItems;
+    private List<Orders> orders;
     private int calculations;
 }
